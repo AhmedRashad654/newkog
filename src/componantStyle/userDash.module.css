@@ -1,0 +1,62 @@
+.allallall {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  padding: 10px;
+  transition: 1s all !important;
+  min-height: 1000px;
+}
+.headAllTable {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 25px auto;
+}
+.headAllTable input {
+  width: 50%;
+}
+
+table {
+  width: 100%;
+  transition: 1s all;
+  text-align: center;
+}
+
+tr,
+td,
+th {
+  padding: 7px 0;
+  color: #2c3d76;
+}
+table td {
+  text-align: center;
+
+}
+@media (max-width: 576px) {
+  .headAllTable {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .headAllTable input {
+    width: 90%;
+  }
+}
+.firstuser {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #777777;
+  padding-bottom: 5px;
+  width: 97%;
+}
+.alltable {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.inform {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,50 @@
+.TextQuestions {
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  text-align: start;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+@media(max-width:750px){
+  .TextQuestions{
+    width: 90%;
+  }
+}
+.headForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 0;
+}
+.TextQuestions label {
+  margin: 10px 0;
+  display: inline-block;
+}
+.TextQuestions input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(156, 135, 175);
+}
+.TextQuestions textarea {
+  width: 90%;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(156, 135, 175);
+}
+.submitQuestions {
+  background-color: rgb(87, 87, 243);
+  padding: 25px;
+  margin: 10px 0;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+.submitQuestions:hover{
+    color: white;
+    background-color: rgb(49, 49, 125);
+}

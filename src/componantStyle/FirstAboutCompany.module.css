@@ -1,0 +1,36 @@
+.collFirstAbout {
+  padding-top: 100px;
+  overflow: hidden;
+  width: 80%;
+  margin: auto;
+}
+
+.firstsHowAre {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  gap: 30px;
+}
+.firstsHowAre .headparagraph {
+  width: 55%;
+}
+.firstsHowAre .imgAbout {
+  flex: 35%;
+}
+.firstsHowAre .imgAbout img {
+  width: 100%;
+}
+.firstsHowAre p ,.firstHowAre p {
+  line-height: 2;
+}
+@media (max-width: 950px) {
+  .firstsHowAre {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+  .firstsHowAre .headparagraph {
+  width: 100%;
+}
+
+}

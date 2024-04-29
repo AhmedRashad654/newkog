@@ -1,0 +1,97 @@
+.allform {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  padding-top: 200px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.allform .left {
+  width: 45%;
+}
+.allform .right {
+  width: 53%;
+}
+
+.right h4 {
+  color: wheat;
+  font-size: 22px;
+}
+.oneinpch p {
+  font-size: 13px;
+  color: #777;
+}
+/* left */
+.left .head {
+  margin-top: 40px;
+}
+.left .head h3 {
+  font-size: 35px;
+  color: var(--btnNavbar);
+  margin-top: -10px;
+  position: relative;
+  width: fit-content;
+}
+.left .head h3::after {
+  content: "";
+  width: 60%;
+  height: 20px;
+  background-color: var(--ulNavbar);
+  position: absolute;
+  left: 4px;
+  bottom: -5px;
+  z-index: -1;
+}
+.head p {
+  background-color: var(--ulNavbar);
+  padding: 2px 5px;
+  width: fit-content;
+  font-size: 12px;
+  font-weight: bold;
+  color: var(--btnNavbar);
+  border-radius: 5px;
+}
+.email3,
+.call3,
+.location3 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.email4,
+.call4,
+.location4 {
+  margin-bottom: 12px;
+}
+
+.bottom {
+  border-radius: 10px;
+  padding: 15px;
+}
+.bottom p {
+  font-size: 20px;
+  color: var(--btnNavbar);
+  font-weight: bold;
+}
+.bottom small {
+  font-size: 14px;
+}
+@media (max-width: 800px) {
+  .allform {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .allform .left {
+    width: 100%;
+  }
+  .allform .right {
+    width: 95%;
+  }
+}
+.map_frame {
+  height: 100%;
+  width: 100%;
+  margin-bottom: -200px;
+}

@@ -1,0 +1,43 @@
+.allslick {
+  width: 80%;
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+.allslick .title {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 50px;
+  position: relative;
+}
+@media (max-width: 700px) {
+  .allslick .title {
+    width: 100%;
+  }
+}
+.title p {
+  color: var(--ulNavbar);
+  font-size: 16px;
+}
+.title h3 {
+  font-size: 30px;
+  color: var(--btnNavbar);
+}
+.allslick .title::after {
+  content: "";
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+  width: 50%;
+  height: 1px;
+  background-color: #a5a3a3;
+  transform: translateX(-50%);
+}
+
+.allslick img {
+  width: 150px !important;
+height: 150px;
+gap: 50px;
+  transition: 0.3s all;
+}

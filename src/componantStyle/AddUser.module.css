@@ -1,0 +1,52 @@
+.collAddUser {
+  border-radius: 10px;
+  padding: 10px;
+  transition: 1s all !important;
+  min-height: var(--heigthinsideDashboard);
+  width: 100%;
+}
+.form {
+  width: 70%;
+  margin: auto;
+}
+@media (max-width: 750px) {
+  .form {
+    width: 90%;
+  }
+}
+.headAddUser {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0;
+  width: 100%;
+}
+.inp {
+  width: 100%;
+}
+.inp label {
+  display: inline-block;
+  margin: 10px 0;
+}
+.inp input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #777;
+}
+.inp select {
+  padding: 5px;
+  width: calc(100%);
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #777;
+}
+
+.role {
+  padding: 5px;
+  width: calc(96%);
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(156, 135, 175);
+}

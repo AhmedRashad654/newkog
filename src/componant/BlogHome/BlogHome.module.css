@@ -1,0 +1,48 @@
+.BlogHome{
+    margin: 200px auto 100px auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
+}
+
+.BlogHome .Blog{
+    width:95% !important;
+    min-height: 400px;
+    box-shadow: 0px 0px 5px 0px #eeeded;
+      border-radius: 25px;
+      padding: 70px 30px 30px 30px ;
+      position: relative;
+    }
+    .rtl{
+        direction: rtl;
+    }
+    .Blog p{
+ min-height: 200px;
+
+
+ margin-bottom: 70px;
+}
+.BlogHome img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.BlogHome .imageButton{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+position: absolute;
+bottom: 30px ;
+}
+.BlogHome .imageButton .text{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.BlogHome .imageButton .text h6{
+    color: var(--ulNavbar);
+}

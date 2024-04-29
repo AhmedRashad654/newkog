@@ -1,0 +1,33 @@
+.TextQuestions {
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  text-align: start;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+   min-height: var(--heigthinsideDashboard);
+}
+@media(max-width:750px){
+  .TextQuestions{
+    width: 90%;
+  }
+}
+.headForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 0;
+}
+.TextQuestions label {
+  margin: 10px 0;
+  display: inline-block;
+}
+.TextQuestions input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #777;
+}
+

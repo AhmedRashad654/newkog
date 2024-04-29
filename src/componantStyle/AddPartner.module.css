@@ -1,0 +1,27 @@
+.AddPartner {
+  border-radius: 10px;
+  padding: 10px;
+  transition: 1s all !important;
+  min-height: var(--heigthinsideDashboard);
+  width: 70%;
+  margin: auto;
+}
+@media(max-width:750px){
+  .AddPartner{
+    width: 90%;
+  }
+}
+.headAddPartner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 5px;
+}
+.inp {
+  width: 100%;
+  margin: 20px 0;
+}
+.inp label {
+  display: inline-block;
+  margin: 20px 0;
+}

@@ -1,0 +1,72 @@
+.perant {
+  width: 100%;
+  min-height: 1000px;
+  position: relative;
+  background-image: linear-gradient(#7b7ca8, #7b7b7b 70%);
+}
+.allcenter {
+  width: 100%;
+}
+.sidebar {
+  width: 50%;
+  position: relative;
+  transition: 0.4s all;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.ollleftbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media (max-width: 500px) {
+  .sidebar {
+    width: 80%;
+  }
+}
+.user {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 15px auto;
+  justify-content: center;
+  width: 30%;
+}
+.user a {
+  text-decoration: none;
+  color: white;
+}
+.useractive {
+  transition: 0.5s all;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.useractive .containicon {
+  background-color: gray;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8b7164;
+  box-shadow: 1px 1px #7b675d;
+  border-radius: 3px;
+}
+.useractive .containicon > :first-child {
+  font-size: 25px;
+}
+.useractive p {
+  font-size: 14px;
+}
+.rigthbar {
+  width: 100%;
+  min-height: 1000px;
+  padding: 5px;
+  transition: 0.5s all !important;
+  overflow: hidden;
+  margin: auto;
+}

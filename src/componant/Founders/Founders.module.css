@@ -1,0 +1,48 @@
+.Founders{
+      background-color: rgba(234, 234, 234, 0.5);
+      padding: 100px 0;
+}
+.Founders .text{
+text-align: center;
+width: 40%;
+margin: auto;
+margin-bottom: 40px;
+
+}
+.Founders .text h4{
+    font-size: 30px;
+     font-family: "Cherry Swash", serif;
+
+}
+@media(max-width:850px){
+    .Founders .text{
+        width: 90%;
+    }
+}
+.allPicture{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
+}
+.picture{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: rgb(55, 55, 55);
+align-items: center;
+ 
+}
+.picture h4{
+        font-family: "Cherry Swash", serif;
+}
+.picture img{
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+}

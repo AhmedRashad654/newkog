@@ -1,0 +1,90 @@
+.YearsOne{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 120px 0;
+
+}
+.YearsOne .image{
+    width: 40%;
+}
+.YearsOne .image img{
+    width: 100%;
+}
+.YearsOne .texts{
+    width: 33%;
+    position: relative;
+        display: flex;
+        flex-direction: column;
+
+}
+.YearsOne h1{
+    font-size: 45px;
+    transform: translateY(-50px);
+  font-family: "Alkatra", system-ui;
+}
+.after{
+    position: relative;
+    width: 65px;
+    height: 75px;
+    position: absolute;
+    top: -7%;
+    right: -22%;
+    border-left:2px solid transparent ;
+    border-bottom:2px solid transparent ;
+    border-top:2px solid gray ;
+    border-right:2px solid gray ;
+}
+.after::after{
+    content: "";
+    position: absolute;
+    top: 105%;
+    right:-28%;
+    width: 35px;
+    height: 35px;
+    border: 12px solid gray;
+    border-radius: 50%;
+}
+.before{
+     width: 65px;
+    height: 75px;
+    position: absolute;
+    top: -7%;
+    left: -22%;
+    border-right:2px solid transparent ;
+    border-bottom:2px solid transparent ;
+    border-top:2px solid gray ;
+    border-left:2px solid gray ;
+}
+.before::after{
+    content: "";
+    position: absolute;
+    top: 105%;
+    left:-28%;
+    width: 35px;
+    height: 35px;
+    border: 12px solid gray;
+    border-radius: 50%;
+}
+
+.YearsOne p{
+font-size: 18px;
+font-family: "Charmonman", cursive;
+}
+
+@media(max-width:900px){
+    .YearsOne{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+   .YearsOne .texts{
+    width: 70%;
+    align-items: center;
+    }
+   .YearsOne .image{
+        width: 70%;
+    }
+    .before,.after{
+        display: none;
+    }
+}

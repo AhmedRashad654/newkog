@@ -1,0 +1,35 @@
+.collanimate {
+
+  min-height: var(--heigthinsideDashboard);
+}
+
+.AddQuestions {
+  text-align: center;
+  width: calc(100% - 15px);
+  padding: 10px;
+  transition: 1s all !important;
+  min-height: var(--heigthinsideDashboard);
+}
+.AddQuestions .firstp {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.secondp {
+  width: 200px;
+  border-radius: 20px;
+  margin: 15px auto;
+  border: 1px solid #777;
+  padding: 5px 3px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.secondp:hover {
+  background-color: rgb(43, 159, 226);
+}
+ .check {
+  background-color: rgb(154, 160, 235);
+  color: white;
+  transform: translateX(10px);
+}

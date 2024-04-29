@@ -1,0 +1,24 @@
+.NavbarAdmin {
+  width: 100%;
+  background-color: rgb(103, 101, 101);
+  margin-bottom: 40px;
+  padding: 5px 20px;
+}
+.NavbarAdmin img:last-child {
+  width: 60px;
+  color: rgb(137, 175, 189);
+}
+
+.NavbarAdmin ul {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  justify-content: space-between;
+}
+.ul li:last-child {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-end;
+  width: 40%;
+}

@@ -1,0 +1,46 @@
+.collfooter {
+  width: 100%;
+  margin-top: 200px;
+  background-color: var(--btnNavbar);
+}
+.footer {
+  width: 95%;
+  margin: auto;
+}
+.footer p {
+  color: #b2afaf;
+}
+.footer .second {
+  padding: 20px 0;
+}
+
+.centerNavbarr ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+justify-content: space-between;
+}
+.centerNavbarr ul li,
+.centerNavbarr ul li a {
+  transition: 0.3s all;
+  color: var(--ulNavbar);
+  font-size: 13px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.centerNavbarr ul li:hover,
+.centerNavbarr ul li a:hover {
+  color: white;
+}
+.centerNavbarr ul li {
+  height: 100%;
+  font-size: 20px;
+}
+@media(max-width:800px){
+  .centerNavbarr ul{
+    flex-direction: column;
+    gap: 20px;
+    
+  }
+}

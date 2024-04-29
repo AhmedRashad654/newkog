@@ -1,0 +1,55 @@
+.allallall {
+  width: 100%;
+}
+.DetailsJap {
+  width: calc(100% - 15px);
+  padding: 10px;
+  transition: 1s all !important;
+  min-height: var(--heigthinsideDashboard);
+}
+.DetailsJap tr td:first-child {
+  cursor: pointer;
+}
+.headresponse {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+}
+.headresponse input {
+  width: 50%;
+}
+
+@media (max-width: 576px) {
+  .headresponse {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .headresponse input {
+    width: 90%;
+  }
+}
+table {
+  width: 100%;
+
+  transition: 1s all;
+  text-align: center;
+
+}
+
+tr,
+td,
+th {
+  padding: 7px 0;
+  color: #2c3d76;
+}
+table td {
+  text-align: center;
+}
+.alltable {
+  width: 100%;
+  margin: auto;
+}
+
+

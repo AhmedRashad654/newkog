@@ -1,0 +1,35 @@
+.AddAdvir {
+
+  padding: 10px;
+  transition: 1s all !important;
+  min-height: var(--heigthinsideDashboard);
+  width: 70%;
+  margin: auto;
+}
+@media(max-width:750px){
+  .AddAdvir{
+    width: 90%;
+  }
+}
+.headAddAdvir {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 5px;
+}
+
+.inp {
+  width: 100%;
+  margin: 20px 0;
+}
+.inp label {
+  display: inline-block;
+  margin: 20px 0;
+}
+.inp input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #777;
+}

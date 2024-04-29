@@ -1,0 +1,41 @@
+.AddServices {
+  width: 100%;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  text-align: start !important;
+}
+.headAddServices {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 5px;
+  width: 90%;
+}
+.inp {
+  width: 100%;
+  margin: 20px 0;
+}
+.inptextarea {
+  margin-top: 5px;
+}
+.inp label {
+  display: inline-block;
+  margin: 20px 0;
+}
+.inp input:not(:first-child) {
+  width: 90%;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #777;
+}
+
+.textarea {
+  width: 90%;
+  margin-top: 20px;
+  min-height: 200px;
+  border-radius: 5px;
+  outline: none;
+}

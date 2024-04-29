@@ -1,0 +1,12 @@
+.container {
+  position: relative;
+}
+
+.customCursor {
+  position: absolute;
+  width: 15px; 
+  height: 15px;
+  background-size: contain; 
+  pointer-events: none;
+  z-index: 9999; 
+}

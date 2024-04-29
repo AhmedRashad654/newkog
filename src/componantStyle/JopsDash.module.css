@@ -1,0 +1,49 @@
+.allallall {
+  width: 100%;
+  width: 100%;
+  background-color: white;
+  box-shadow: 2px 2px 2px #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  transition: 1s all !important;
+  min-height: var(--heigthinsideDashboard);
+}
+
+.allallall tr td:first-child {
+  cursor: pointer;
+}
+.alltable {
+  margin: auto;
+}
+table {
+  width: 100%;
+  transition: 1s all;
+  text-align: center;
+
+}
+tr,
+td,
+th {
+
+  padding: 7px 0;
+  color: #2c3d76;
+}
+.headJop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 20px 20px;
+}
+.headJop input {
+  width: 50%;
+}
+@media (max-width: 576px) {
+  .headJop {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .headJop input {
+    width: 90%;
+  }
+}

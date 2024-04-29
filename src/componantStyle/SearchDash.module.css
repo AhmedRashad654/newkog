@@ -1,0 +1,32 @@
+.SearchDash {
+  width: 55%;
+  position: relative;
+  margin: 20px auto;
+}
+.SearchDash input {
+  width: 100%;
+  margin: auto;
+  padding: 10px 10px 10px 35px;
+  direction: ltr;
+  background-color: #8988b0;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+.SearchDash input::placeholder {
+  color: white;
+  font-size: 12px;
+}
+.glass {
+  position: absolute;
+  left: calc(2% + 3px);
+  top: calc(50% + 1px);
+  transform: translateY(-50%);
+  color: white;
+  font-size: 12px;
+}
+@media(max-width:500px){
+  .SearchDash{
+    width: 90%;
+  }
+}

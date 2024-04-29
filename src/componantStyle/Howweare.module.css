@@ -1,0 +1,153 @@
+.contactHow {
+  overflow-x: hidden;
+ transform: translateY(-5px);
+     font-family: "Besley", serif;
+}
+.collSecondHowAre{
+  margin-top: 80px;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.collSecondHowAre .text{
+  width: 50%;
+  text-align: center;
+
+}
+/* //////h4/////// */
+.collSecondHowAre .text h4{
+   background-clip: text;
+   animation: reveal 3000ms infinite forwards 200ms,
+             glow 2500ms linear infinite 2000ms;
+
+}
+ @keyframes reveal {
+    80%{
+      letter-spacing: 4px;
+    }
+    100% {
+      background-size: 200% 200%;
+    }
+  }
+  @keyframes glow {
+    40% {
+      text-shadow: 0 0 8px #fff;
+    }
+  }
+/* //////h4////////// */
+.collSecondHowAre .text p{
+  line-height: 1.7;
+    font-size: 18px;
+}
+@media(max-width:850px){
+  .collSecondHowAre .text{
+    width: 90%;
+  }
+  .collSecondHowAre .text p{
+    font-size: 10px !important;
+}
+}
+.collSecondHowAre2{
+  position: relative;
+  width: 100%;
+  height: 95vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-attachment: fixed;
+}
+.collSecondHowAre2::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(234, 234, 234, 0.5);
+  width: 100%;
+  height: 100%;
+}
+.collText{
+  position: absolute;
+  width: 50%;
+  text-align: center;
+  color: black;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.collText .text p{
+  line-height: 1.7;
+  font-size: 18px;
+}
+.lastp{
+  font-size: 12px;
+}
+
+/* /sction three/ */
+.collSecondHowAre3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 100px 0;
+}
+.collSecondHowAre3 .text h6{
+  text-align: center;
+}
+.collSecondHowAre3 .text h4{
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.collSecondHowAre3 .nestedThree{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+.collSecondHowAre3 .nestedThree .one{
+  width: 500px;
+  text-align: center;
+  /* background-color: red; */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px #eeeded;
+
+}
+.collSecondHowAre3 .one h6{
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.collSecondHowAre3 .nestedThree .one p{
+  line-height: 1.7;
+}
+
+/* ////////// */
+@media(max-width:850px){
+  .collText{
+    width: 90%;
+  }
+  .collSecondHowAre .text p,.collSecondHowAre2 .text p{
+    font-size: 12px;
+  }
+  .lastp{
+    font-size: 8px;
+  }
+  .collSecondHowAre3 .text h4{
+    width: 90%;
+    font-size: 12px;
+  }
+
+}
+@media (max-width:520px){
+    .collSecondHowAre3 .nestedThree .one{
+    width: 340px;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,41 @@
+.Advertisements {
+  width: 100%;
+  overflow: hidden;
+  padding: 10px;
+  transition: 1s all !important;
+  min-height: 1000px;
+}
+
+.collAdvertisements {
+  width: 99%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin-top: 50px;
+}
+.headAllAdvertisements {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 20px auto;
+}
+.headAllAdvertisements input {
+  width: 50%;
+}
+.AdvertisementsDiv {
+  width: 200px;
+  height: 150px;
+}
+.AdvertisementsDiv img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 15px;
+}
+.underbottom {
+  display: flex;
+  justify-content: space-between;
+}

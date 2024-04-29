@@ -1,0 +1,36 @@
+.KamalOsmanLife{
+width: 100%;
+height: 95vh;
+text-align: center;
+ background-color: rgba(234, 234, 234, 0.5);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.KamalOsmanLife1{
+width: 100%;
+height: 95vh;
+text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.text{
+    width: 70%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.text p{
+    line-height: 1.7;
+}
+@media(max-width:800px){
+    .text h4{
+        font-size: 15px;
+    }
+    .text{
+        width: 90%;
+        font-size: 12px;
+    }
+}

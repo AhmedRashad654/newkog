@@ -1,0 +1,41 @@
+.PartnerDash {
+  width: 100%;
+  margin: auto;
+  padding-top: 20px;
+
+  border-radius: 10px;
+  padding: 10px;
+  transition: 1s all !important;
+  min-height: var(--heigthinsideDashboard);
+}
+.collPartner {
+  width: 99%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 200px;
+  margin-top: 50px;
+}
+.headAllPartner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 25px auto;
+}
+.headAllPartner input {
+  width: 50%;
+}
+.PartnerDash .PartnerDiv {
+  width: 100px;
+  height: 100px;
+}
+.PartnerDash .PartnerDiv img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 15px;
+}
+/* .PartnerDash .PartnerDiv button {
+} */

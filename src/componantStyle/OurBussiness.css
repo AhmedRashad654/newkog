@@ -1,0 +1,33 @@
+.OurBussiness {
+  padding: 130px 20px 20px 20px;
+}
+.collSliderBusiness {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+.peranImg {
+  height: 50vh;
+  margin: 30px;
+  width: 40%;
+  overflow: hidden;
+}
+.peranImg img {
+  height: 100%;
+  width: 80%;
+}
+.peranImg img:hover{
+  transform: scale(1) !important;
+}
+.headOurBusinness {
+  text-align: center;
+  margin: 50px auto;
+}
+.textOurBusinness {
+  width: 90%;
+  margin: 50px auto 0;
+}
+.textOurBusinness h4 {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
