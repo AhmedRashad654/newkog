@@ -82,7 +82,7 @@ export default function Navbar({ prop}) {
           <li>
             {" "}
             <NavLink to="/howweare">
-              {direction === "EN" ? "HWO WE ARE" : "كيف حالنا"}
+              {direction === "EN" ? "WHO WE ARE" : "كيف حالنا"}
             </NavLink>{" "}
           </li>
           <li>
@@ -157,7 +157,7 @@ export default function Navbar({ prop}) {
           <li>
             {" "}
             <NavLink to="/howweare">
-              {direction === "EN" ? "HWO WE ARE" : "كيف حالنا"}
+              {direction === "EN" ? "WHO WE ARE" : "كيف حالنا"}
             </NavLink>
           </li>
           <li>
