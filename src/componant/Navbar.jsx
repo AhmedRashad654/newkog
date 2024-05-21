@@ -78,25 +78,12 @@ export default function Navbar({ prop}) {
             {" "}
             <NavLink to="/">{direction === "EN" ? "HOME" : "الرئيسية"}</NavLink>
           </li>
-
-          <li>
-            {" "}
-            <NavLink to="/howweare">
-              {direction === "EN" ? "WHO WE ARE" : "كيف حالنا"}
-            </NavLink>{" "}
-          </li>
           <li>
             {" "}
             <NavLink to="/ourbusiness">
-              {direction === "EN" ? "OUR BUSINESS" : "اعمالنا"}
+              {direction === "EN" ? "WHO WE ARE" : "كيف حالنا"}
             </NavLink>{" "}
           </li>
-          {/* <li>
-            {" "}
-            <NavLink to="/">
-              {direction === "EN" ? "JOIN TO OUR TEAM" : "انضم الي فريقنا"}
-            </NavLink>{" "}
-          </li> */}
           {localStorage.getItem("roleBycrypt") && (
             <li>
               {" "}
@@ -119,20 +106,22 @@ export default function Navbar({ prop}) {
               {direction === "EN" ? "CONTACT US" : "تواصل"}
             </Link>
           </li>
+          <div style={{ display: prop }}>
           <li onClick={() => navigate("/register")}>
             {" "}
-            {direction === "EN" ? "     sign in" : "حساب جديد"}{" "}
+            {direction === "EN" ? "     SIGN IN" : "حساب جديد"}{" "}
           </li>
           {logout ? (
             <li onClick={() => navigate("/login")}>
               {" "}
-              {direction === "EN" ? "  Login" : "تسجيل دخول"}
+              {direction === "EN" ? "  LOGIN" : "تسجيل دخول"}
             </li>
           ) : (
             <li onClick={handleLogout}>
-              {direction === "EN" ? "  Logout" : "تسجيل خروج"}
+              {direction === "EN" ? "  LOGOUT" : "تسجيل خروج"}
             </li>
-          )}
+            ) }
+            </div>
           <li>
             <EnglishAndArabic color="#777" />
           </li>
@@ -154,16 +143,11 @@ export default function Navbar({ prop}) {
             <NavLink to="/">{direction === "EN" ? "HOME" : "الرئيسية"}</NavLink>
           </li>
 
-          <li>
-            {" "}
-            <NavLink to="/howweare">
-              {direction === "EN" ? "WHO WE ARE" : "كيف حالنا"}
-            </NavLink>
-          </li>
+       
           <li>
             {" "}
             <NavLink to="/ourbusiness">
-              {direction === "EN" ? "OUR BUSINESSES" : "اعمالنا"}
+              {direction === "EN" ? "WHO WE ARE" : "كيف حالنا"}
             </NavLink>
           </li>
           {localStorage.getItem("roleBycrypt") && (
@@ -206,7 +190,7 @@ export default function Navbar({ prop}) {
           className="hidden"
         />
       </div>
-      <div className="rigthNavbar" style={{display:prop}}>
+      <div className="rigthNavbar" style={{ display: prop }}>
         <button
           className="btn btn-secondary"
           id="signin"

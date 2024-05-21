@@ -41,7 +41,7 @@ export default function Header() {
         <img src={two} alt="twoheader" />
       </Slider>
       <div className="maintext">
-        <h1>{direction === "EN" ? "Kamal Othman" : " كمال عثمان"}</h1>
+        <h1>{direction === "EN" ? "Kamal Osman" : " كمال عثمان"}</h1>
         <h2>{direction === "EN" ? "Group" : "جروب"}</h2>
         <p>
           {direction === "EN"

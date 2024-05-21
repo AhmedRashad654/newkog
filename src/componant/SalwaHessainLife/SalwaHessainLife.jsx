@@ -1,11 +1,13 @@
 import React from "react";
 import style from "./SalwaHessainLife.module.css";
 import { useUser } from "../../context/Context";
+import one from '../../image/WhatsApp Image 2024-04-29 at 11.24.17_c86ef092.jpg'
 export default function SalwaHessainLife() {
   const { direction } = useUser();
   return (
     <>
       <div className={style.KamalOsmanLife}>
+        <img src={one} alt="kamalosman" />
         <div className={style.text}>
           <h4>
             {direction === "EN"

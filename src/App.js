@@ -7,6 +7,7 @@ import { ContextProvider } from "./context/Context";
 import SpinnerFull from "./componant/SpinnerFull.jsx";
 import CustomCursor from "./componant/CustomCursor.jsx";
 import AddNewsLetter from "./pages/Dashboard/AddNewsLetter.jsx";
+import DisplayFounders from "./componant/DisplayFounders/DisplayFounders.jsx";
 const NewsLetter  =lazy(()=>import('./pages/Dashboard/NewsLetter.jsx'))
 const HowWeAre = lazy( () => import( './componant/HowWeAre.jsx' ) );
 const Contant = lazy(() => import("./componant/Contant.jsx"));
@@ -43,7 +44,7 @@ const AddAdvertisements = lazy(() =>
 const DisplayQuestionAdmin = lazy(() =>
   import("./pages/Dashboard/DisplayQuestionAdmin.jsx")
 );
-const AddChoice = lazy(() => import("./pages/Dashboard/AddChoice.jsx"));
+const AddChoice = lazy( () => import( "./pages/Dashboard/AddChoice.jsx" ) );
 export default function App() {
   return (
     <ContextProvider>
@@ -59,6 +60,8 @@ export default function App() {
             <Route path="footer" element={<Footer />} />
             <Route path="howweare" element={<HowWeAre />} />
             <Route path="ourbusiness" element={<OurBussiness />} />
+            <Route path="displayFounder/:id" element={<DisplayFounders />} />
+
             <Route
               path="interview"
               element={

@@ -1,0 +1,100 @@
+.collSecondHowAre3 {
+    width: 100%;
+    height: fit-content;
+      background-color: rgba(234, 234, 234, 0.5);
+      padding: 70px 0;
+      margin-top: 80px;
+}
+.text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+.collSecondHowAre3 .text h4{
+  width: 50%;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.collSecondHowAre3 .nestedThree{
+  display: flex;
+  justify-content:space-between;
+  gap: 20px;
+  width: 90%;
+  flex-wrap: wrap;
+  margin-top: 70px;
+margin: auto;
+}
+.collSecondHowAre3 .nestedThree .one{
+  width: 32%;
+  text-align: center;
+  min-height: 150px;
+padding: 0 30px;
+}
+.collSecondHowAre3 .one h6{
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.collSecondHowAre3 .nestedThree .one p{
+  line-height: 1.7;
+  display: -webkit-box;
+  -webkit-box-orient: vertical; 
+  -webkit-line-clamp: 2; 
+  overflow: hidden; 
+
+}
+/* //////////////// */
+.collSecondHowAre3 .text span{
+    width: 1px;
+    height: 30px;
+    background-color: rgb(26, 26, 26);
+    animation: opacityWrite 1s infinite;
+}
+.collSecondHowAre3 button{
+  outline: none;
+  border: none;
+  padding: 5px 30px;
+  border-radius: 25px;
+  background-color: gray;
+  color: white;
+  transition: .3s all;
+}
+.collSecondHowAre3 button:hover{
+  background-color: rgb(161, 160, 160);
+}
+.borderEnglish{
+  border-right: 1px solid gray;
+}
+.borderArabic{
+  border-left: 1px solid gray;
+}
+@keyframes opacityWrite {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 100%;
+  }
+}
+/* ////////// */
+@media(max-width:850px){
+
+  .collSecondHowAre3 .text h4{
+    width: 90%;
+    font-size: 12px;
+  }
+.nestedThree{
+    flex-direction: column;
+    align-items: center;
+}
+.nestedThree .one{
+    width: 100% !important;
+}
+.collSecondHowAre3{
+    height: fit-content;
+}
+}

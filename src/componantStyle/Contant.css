@@ -2,17 +2,13 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-
-  padding-top: 200px;
+  padding-top: 150px;
   padding-left: 30px;
   padding-right: 30px;
 }
 
 .allform .left {
   width: 45%;
-}
-.allform .right {
-  width: 53%;
 }
 
 .right h4 {
@@ -53,16 +49,12 @@
   color: var(--btnNavbar);
   border-radius: 5px;
 }
-.email3,
-.call3,
-.location3 {
+.email3 {
   display: flex;
   align-items: center;
   gap: 20px;
 }
-.email4,
-.call4,
-.location4 {
+.email4 {
   margin-bottom: 12px;
 }
 
@@ -78,6 +70,44 @@
 .bottom small {
   font-size: 14px;
 }
+/* ////////////////////// */
+.rightContact{
+  width: 45%;
+}
+.rightContact .oneContact{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.rightContact .oneContact .insideone{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.rightContact .oneContact .insideone input{
+  width: 100%;
+}
+.twoContect{
+  width: 100%;
+  
+}
+.insidetwo{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.insidetwo textarea{
+  height: 100px;
+  width: 100%;
+}
+/* ////////////////// */
+.right{
+width: 90%;
+margin: 30px auto;
+}
+
 @media (max-width: 800px) {
   .allform {
     flex-direction: column;
@@ -88,6 +118,9 @@
   }
   .allform .right {
     width: 95%;
+  }
+  .allform .rightContact{
+    width: 100%;
   }
 }
 .map_frame {

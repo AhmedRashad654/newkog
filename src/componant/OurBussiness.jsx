@@ -6,8 +6,6 @@ import Navbar from "../componant/Navbar";
 import Footer from "../componant/Footer";
 
 import { Helmet } from "react-helmet-async";
-import ServicrsOurBusinness from "./ServicesOurBusiness/ServicrsOurBusinness";
-import PartnerOurBusinnes from "./PartnerOuerBusiness/PartnerOurBusinnes";
 import Founders from "./Founders/Founders";
 import YearsOne from "./Years/YearsOne";
 import { useUser } from "../context/Context";
@@ -19,6 +17,7 @@ import four from "../image/our service-01.png";
 import six from "../image/خدمات الشركات-01.png";
 import eight from "../image/البيع الاليكتروني-01.png";
 import nine from "../image/WhatsApp Image 2024-04-29 at 11.24.17_901a14b9.jpg";
+import FirstSectionInOurBusiness from "./FirstSectionInOurBusiness";
 export default function OurBussiness() {
 const {direction} = useUser()
  
@@ -32,8 +31,8 @@ const {direction} = useUser()
         />
       </Helmet>
       <Navbar prop="none" />
-      <ServicrsOurBusinness />
-      <PartnerOurBusinnes />
+      <FirstSectionInOurBusiness/>
+    
       <Founders />
       <YearsOne
         img={one}

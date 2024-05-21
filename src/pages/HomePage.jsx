@@ -9,11 +9,12 @@ import { Helmet } from "react-helmet-async";
 import FirstAboutCompany from "../componant/FirstAboutCompany";
 import SecondSectionHome from "../componant/SecondSectionHome/SecondSectionHome";
 import BlogHome from "../componant/BlogHome/BlogHome";
-
+import OurBartnerShip from "../componant/OurBartnersShipSection/OurBartnerShip";
+import Counter from "../componant/Counter/Counter";
+import SectionOurValuesHome from "../componant/SectionOurValuesHome/SectionOurValuesHome";
 export default function HomePage() {
-
   return (
-    <div style={{overflow:'hidden'}}>
+    <div style={{ overflow: "hidden" }}>
       <Helmet>
         <title>KOG</title>
         <meta
@@ -21,15 +22,19 @@ export default function HomePage() {
           content="The home page of the Kamal Othman Group website"
         />
       </Helmet>
-      <Navbar prop="none"/>
+      <Navbar prop="none" />
       <Header />
-      <SecondSectionHome/>
+      <SecondSectionHome />
       <Services />
-      <FirstAboutCompany/>
+      <FirstAboutCompany />
       <AutoPlay />
-      <BlogHome/>
+      <BlogHome />
       <SliderAds />
-      <Footer/>
+      <SectionOurValuesHome />
+
+      <Counter />
+      <OurBartnerShip />
+      <Footer />
     </div>
   );
 }
